@@ -35,10 +35,16 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20.x
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
       - name: Install Jupyter Book
         run: pip install --pre jupyter-book>=2.0.0a0
       - name: Build HTML Assets
-        run: jupyter book build --html
+        run: jupyter book build --html --execute
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
