@@ -1,0 +1,15 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: df8b4a16-be6c-4b92-abcc-a95e23b9684a
+  # title:
+  # description:
+  # keywords: []
+  # authors: []
+  github: https://github.com/2i2c-org/community-docs-template
+  # To autogenerate a Table of Contents, run "myst init --write-toc"
+site:
+  template: book-theme
+  # options:
+  #   favicon: favicon.ico
+  #   logo: site_logo.png

@@ -1,0 +1,6 @@
+# Required for Jupyter Book execution
+jupyter-server
+ipykernel
+
+# Required by the code
+cowsay
