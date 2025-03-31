@@ -8,6 +8,8 @@ project:
   # authors: []
   github: https://github.com/2i2c-org/community-docs-template
   # To autogenerate a Table of Contents, run "myst init --write-toc"
+  toc:
+    - file: content/index.md
 site:
   template: book-theme
   options:
