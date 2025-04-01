@@ -9,7 +9,7 @@ subtitle: Use Jupyter Execution to Find the Number of Stars
 
 # Template Metrics
 
-Here's some code that queries the GitHub API:
+This page is an example of an executable document. Here's some code that queries the GitHub API:
 
 ```{code-cell} python3
 :class: glow
