@@ -5,7 +5,7 @@ site:
   hide_title_block: true
 ---
 
-+++ {"kind": "split-image"}
++++ {"kind": "split-image", "class": "alternate"}
 
 ## 2i2c's Community Docs Template
 
@@ -15,7 +15,7 @@ A template for launching community documentation alongside 2i2c Jupyter Hubs.
 
 {button}`Visit 2i2c.org →<https://2i2c.org/>`
 
-+++ { "kind": "centered"}
++++ { "kind": "centered", "class": "alternate"}
 
 Community Documentation
 
@@ -29,7 +29,7 @@ Every community has its own story, and 2i2c believe that deploying a place to sh
 >
 > -- [2i2c's Mission Statement](https://2i2c.org/mission/)
 
-+++ { "kind": "centered"}
++++ { "kind": "centered", "class": "alternate"}
 
 Using this template
 

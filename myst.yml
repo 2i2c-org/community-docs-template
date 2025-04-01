@@ -19,6 +19,7 @@ site:
     logo: media/logo-light.webp
     logo_dark: media/logo-dark.webp
     logo_text: Community Docs Template
+    style: ./style.css
   nav:
     - title: Home
       url: "/about"

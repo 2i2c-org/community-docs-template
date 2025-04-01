@@ -4,7 +4,7 @@ kernelspec:
   display_name: Python
 
 title: Template Metrics
-subtitle: How Many Stars Does This Template Have?
+subtitle: Use Jupyter Execution to Find the Number of Stars
 ---
 
 # Template Metrics
@@ -12,6 +12,8 @@ subtitle: How Many Stars Does This Template Have?
 Here's some code that queries the GitHub API:
 
 ```{code-cell} python3
+:class: glow
+
 import urllib.request
 import json
 
