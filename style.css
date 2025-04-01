@@ -1,9 +1,14 @@
-/* Add alternate colours */
+/** A custom stylesheet.
+ * Add your own CSS styles here, making use of the `class` option 
+ * for many MyST directives
+ */
+
+/* Feature 1. add alternate colours to landing page blcoks */
 .alternate.group\/block:nth-child(2n) {
   background-color: oklch(0.97 0.001 106.424);
 }
 
-/* Add glow effect to code-cell 
+/* Feature 2. add a glow effect to code-cell's with a `glow` class 
  * See https://codepen.io/pugson/pen/eYNXvyN */
 .glow > div:has(> .hljs) {
   background: hsl(0, 0%, 100%);
