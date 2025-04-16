@@ -3,9 +3,12 @@
  * for many MyST directives
  */
 
-/* Feature 1. add alternate colours to landing page blcoks */
+/* Feature 1. add alternate colours to landing page blocks */
 .alternate.group\/block:nth-child(2n) {
   background-color: oklch(0.97 0.001 106.424);
+}
+.dark .alternate.group\/block:nth-child(2n) {
+  background-color: oklch(0.2685 0.006 34.3);
 }
 
 /* Feature 2. add a glow effect to code-cell's with a `glow` class 
