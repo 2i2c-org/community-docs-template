@@ -9,7 +9,7 @@ site:
 
 ## 2i2c's Community Docs Template
 
-![](https://2i2c.org/media/herobg_hu5a658728cceec117577588bf1f09a7c6_35087_1920x1920_fit_q75_h2_lanczos_3.webp)
+![](../media/card.svg)
 
 A template for launching community documentation alongside 2i2c Jupyter Hubs.
 
